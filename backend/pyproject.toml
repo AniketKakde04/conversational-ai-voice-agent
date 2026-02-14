@@ -1,0 +1,13 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "livekit-agents[openai,sarvam,silero]>=0.8.0",
+    "livekit-plugins-openai>=1.4.1",
+    "livekit-plugins-sarvam>=1.4.1",
+    "python-dotenv>=1.2.1",
+    "sarvamai>=0.1.25",
+]
